@@ -34,7 +34,7 @@ def send_email(sender_email, receiver_email, subject, body, filename):
 
     server = smtplib.SMTP('smtp.gmail.com', 587)  
     server.starttls()
-    server.login(sender_email, "teez ayih rfrx nmgd")  
+    server.login(sender_email, "Your google App password")  
     server.sendmail(sender_email, receiver_email, message.as_string())
     server.quit()
 
@@ -68,7 +68,7 @@ def main():
 
     user_email = input("Enter your email address: ")
 
-    sender_email = "salman39302@gmail.com"  
+    sender_email = "youremail@gmail.com.com"  
     subject = "Items List - from xyz market"
     body = "This email contains the list of items that you purchased in xyz market."
 
