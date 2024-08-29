@@ -34,7 +34,7 @@ def send_email(sender_email, receiver_email, subject, body, filename):
 
     server = smtplib.SMTP('smtp.gmail.com', 587)  
     server.starttls()
-    server.login(sender_email, "Your google App password")  
+    server.login(sender_email, "Your google App password") # Here you should use your App password generated in your google account!! 
     server.sendmail(sender_email, receiver_email, message.as_string())
     server.quit()
 
