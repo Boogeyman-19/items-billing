@@ -1,4 +1,4 @@
-
+     
 
 # Items List Script
 
@@ -83,4 +83,3 @@ Here's an example of how the script works:
    Data has been saved to /path/to/items.xlsx and sent to your email.
    ```
 
-Feel free to customize this README file according to your specific needs and requirements!
